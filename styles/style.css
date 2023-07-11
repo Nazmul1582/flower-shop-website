@@ -71,6 +71,50 @@ p {
 }
 
 /* featured section */
+.featured-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.featured-img img {
+  width: 320px;
+  height: 450px;
+  padding: 20px 20px 0;
+}
+.featured-img div {
+  border-radius: 300px 300px 0px 0px;
+}
+.single-img-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.single-img-2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.single-img-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.img-caption {
+  text-decoration: underline;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-top: 32px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 80px;
+  text-align: center;
+}
+.single-service p {
+  color: rgba(39, 39, 39, 0.8);
+  margin-top: 24px;
+}
 
 /* hot deal section */
 .hot-deal {
@@ -104,7 +148,7 @@ p {
   padding: 100px 0;
   border-radius: 8px;
 }
-.contact-form {
+.newslatter-form {
   margin-top: 40px;
   display: flex;
   justify-content: center;
@@ -117,6 +161,27 @@ p {
   outline: 0;
   padding: 20px;
   font-size: 18px;
+}
+
+/* contact section */
+.contact {
+  background: rgba(229, 84, 115, 0.05);
+}
+.contact-form {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-field {
+  width: 500px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(167, 33, 98, 0.15);
+  outline: none;
 }
 
 /* footer */
