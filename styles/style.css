@@ -90,11 +90,11 @@ p {
 /* instagram section */
 .instagram-photos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 40px;
 }
 .instagram-photos img {
-  max-width: 250px;
+  max-width: 270px;
 }
 
 /* newslatter section */
@@ -117,4 +117,20 @@ p {
   outline: 0;
   padding: 20px;
   font-size: 18px;
+}
+
+/* footer */
+.footer {
+  background-color: #111010;
+}
+.white-text {
+  color: #fff;
+}
+.footer-desc {
+  padding: 0 380px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
 }
