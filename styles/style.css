@@ -88,3 +88,11 @@ p {
 }
 
 /* instagram section */
+.instagram-photos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.instagram-photos img {
+  max-width: 250px;
+}
